@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/fontawesome/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>&darr;</li>
+        </ul>
+    </div>
+    <section>
+        <div class="container">
+            <div class="line"></div>
+            <h2 class="title">Призы</h2>
+            <div class="prize">
+                <div class="prize__item">
+                    <img src="./images/money1.jpg" alt="prize">
+                    <div class="prize__content">
+                        <p class="prize__name">100 участников<br>по <span class="font">5 000₽</span></p>
+                        <p class="prize__place">4-е место</p>
+                    </div>
+                </div>
+                <div class="prize__item">
+                    <img src="./images/money2.jpg" alt="prize">
+                    <div class="prize__content">
+                        <p class="prize__name"> <span class="font">1 000 000 </span>рублей</p>
+                        <p class="prize__place">2-е место</p>
+                    </div>
+                </div>
+                <div class="prize__item">
+                    <img src="./images/car.jpg" alt="prize">
+                    <div class="prize__content avto">
+                        <p class="prize__name"> <span class="font">Автомобиль</span></p>
+                        <p class="prize__place">1-е место</p>
+                    </div>
+                </div>
+                <div class="prize__item">
+                    <img src="./images/money3.jpg" alt="prize">
+                    <div class="prize__content">
+                        <p class="prize__name">10 участников<br>по  <span class="font">100 000 ₽</span></p>
+                        <p class="prize__place">3-е место</p>
+                    </div>
+                </div>
+                <div class="prize__item">
+                    <img src="./images/money4.jpg" alt="prize">
+                    <div class="prize__content">
+                        <p class="prize__name">1000 участников<br>по  <span class="font">1000₽</span></p>
+                        <p class="prize__place">5-е место</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section hidden>
+        <div class="parent">
+            <div class="div1"> <h2><i class="fab fa-accessible-icon sss"></i>title 1</h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora dolorum illum excepturi optio voluptas amet, natus, vitae fugiat, ducimus earum inventore aliquid nisi cumque expedita velit omnis unde quaerat?</div>
+            <div class="div2"> <img src="./images/moln.jpg" alt=""></div>
+            <img src="./images/moln.jpg" alt="" class="div2">
+            <div class="div3"> <h2><i class="fas fa-transgender sss"></i>title 2</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora dolorum illum excepturi optio voluptas amet, natus, vitae fugiat, ducimus earum inventore aliquid nisi cumque expedita velit omnis unde quaerat? </div>
+            <div class="div4"><img src="./images/car2.jpg" alt=""></div>
+            <div class="div5"><h2><i class="fas fa-menorah sss"></i>title 3</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora dolorum illum excepturi optio voluptas amet, natus, vitae fugiat, ducimus earum inventore aliquid nisi cumque expedita velit omnis unde quaerat? </div>
+            <div class="div6"><h2><i class="fas fa-user sss"></i>title 4</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora dolorum illum excepturi optio voluptas amet, natus, vitae fugiat, ducimus earum inventore aliquid nisi cumque expedita velit omnis unde quaerat? </div>
+            <div class="div7"><h2><i class="fab fa-watchman-monitoring sss"></i>title 5</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora dolorum illum excepturi optio voluptas amet, natus, vitae fugiat, ducimus earum inventore aliquid nisi cumque expedita velit omnis unde quaerat? </div>
+            <div class="div8"><img src="./images/car3.jpg" alt=""> </div>
+            </div>
+    </section>
+    <section class="conditions">
+        <div class="container">
+            <div class="line"></div>
+            <h2 class="title">Условия участия</h2>
+            <a href="https://www.google.com/">Условие участия</a>
+            <div class="form-wrapper">
+                <div class="form-wrapper__item">
+                <form class="form-for-card">
+                    <h3 class="form-title">Оплатите участие</h3>
+                    <input type="text" name="persoName" id="persoName" placeholder="Имя и Фамилия">
+                    <input type="text" name="cardNumber" id="cardNumber" placeholder="Номер карты">
+                    <div class="card-info">
+                        <input type="text" name="cardData" id="cardData" placeholder="Срок действия">
+                        <input type="text" name="cardCVV" id="cardCVV" placeholder="CVV код">
+                    </div>
+                    <input type="submit" value="Оплатить" class="submit">
+                </form>
+            </div>
+            <div class="form-wrapper__item">
+                <form class="form-for-card">
+                    <h3 class="form-title">Введите код</h3>
+                    <input type="text" name="persoCode" id="persoCode" placeholder="Код">
+                    <input type="file" name="persoFile" id="persoFile">
+                    <textarea name="review" id="review">Напишите отзыв</textarea>
+                    <input type="submit" value="Отправить" class="submitotpr">
+                </form>
+            </div>
+            </div>
+        </div>  
+    </section>
+    <section>
+        <div class="pseudo">
+
+        </div>
+        <div class="menu-demo">
+            <div class="menu-demo__item">Главные</div>
+            <div class="menu-demo__item">О нас</div>
+            <div class="menu-demo__item contacts">Контакты</div>
+        </div>
+    </section>
+    <img src="images/doge.jpg" alt="" id="controlImage">
+    <button id = "imageButton">Поменять картинку</button>
+    <button id = "slideshowBtn">Запуск слайдшоу</button>
+    <input type="range" id ="rng" min = 1000 max=10000>
+    <input type="text" id = "txt"></input>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 9</title>
+</head>
+<body>
+  <button type="button" onclick = "f()">Нажмите</button>
+
+  <script>
+    function f() {
+      let loop = true;
+      let array = []; 
+      let sum = 0.0;
+
+      while (loop) {
+        let result = prompt('Введите число', '');
+       
+        if (result == null || result == "" || !Number(result))
+          loop = false;
+
+        else 
+          array.push(Number(result));
+      }
+
+      for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+      }
+
+      alert('Сумма равна = ' +sum);
+    }
+  </script>
+</body>
+</html>

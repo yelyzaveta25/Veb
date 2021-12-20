@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная работа 9</title>
+</head>
+<body>
+  
+  <button type="button" onclick="startTest()">Нажмите</button>
+
+  <script>
+    function startTest() {
+      let name = prompt('Введите ваше имя: ');
+      let result = 0;
+
+      let temp = confirm("10 + 5 = 0?");
+      if (!temp) {
+        alert("Ответ правильный");
+        result += 1;
+      }
+      else {
+          alert("Ответ неправильный");
+      }
+
+      temp = confirm("Корень из 100 равно 10?");
+      if (temp) {
+        alert("Ответ правильный");
+        result += 1;
+      }
+      else {
+          alert("Ответ неправильный");
+      }
+
+      temp = confirm("Производная синуса равна косинусу?");
+      if (temp) {
+        alert("Ответ правильный");
+        result += 1;
+      }
+      else {
+          alert("Ответ неправильный");
+      }
+
+      temp = confirm("50% от 100 равно 49?");
+      if (!temp) {
+        alert("Ответ правильный");
+        result += 1;
+      }
+      else {
+          alert("Ответ неправильный");
+      }
+
+      temp = confirm("ln(e) = 1?");
+      if (temp) {
+        alert("Ответ правильный");
+        result += 1;
+      }
+      else {
+          alert("Ответ неправильный");
+      }
+
+      alert(name+", вы сдали тест на  " +result);
+    }
+  </script>
+  
+</body>
+</html>
